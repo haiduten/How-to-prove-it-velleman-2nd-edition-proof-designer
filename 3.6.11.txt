@@ -1,0 +1,477 @@
+∀G(G⊆F→∪G∈F)
+</stmnt>
+∃!A(A∈F∧∀B(B∈F→B⊆A))
+</stmnt>
+F⊆F
+∀a(a∈F→a∈F)
+</stmnt>
+x∈F→x∈F
+</stmnt>
+x∈F
+</stmnt>
+F⊆F→∪F∈F
+</stmnt>
+∪F∈F
+</stmnt>
+∀B(B∈F→B⊆∪F)
+</stmnt>
+B∈F→B⊆∪F
+</stmnt>
+B∈F
+</stmnt>
+B⊆∪F
+∀a(a∈B→a∈∪F)
+</stmnt>
+x∈B→x∈∪F
+</stmnt>
+x∈B
+</stmnt>
+B∈F∧x∈B
+</stmnt>
+x∈∪F
+∃a(a∈F∧x∈a)
+</stmnt>
+∪F∈F∧∀B(B∈F→B⊆∪F)
+</stmnt>
+∃A(A∈F∧∀B(B∈F→B⊆A))
+</stmnt>
+∀a∀b((a∈F∧∀B(B∈F→B⊆a))∧(b∈F∧∀B(B∈F→B⊆b))→a=b)
+</stmnt>
+∀b((Y∈F∧∀B(B∈F→B⊆Y))∧(b∈F∧∀B(B∈F→B⊆b))→Y=b)
+</stmnt>
+(Y∈F∧∀B(B∈F→B⊆Y))∧(Z∈F∧∀B(B∈F→B⊆Z))→Y=Z
+</stmnt>
+(Y∈F∧∀B(B∈F→B⊆Y))∧(Z∈F∧∀B(B∈F→B⊆Z))
+</stmnt>
+Y∈F∧∀B(B∈F→B⊆Y)
+</stmnt>
+Z∈F∧∀B(B∈F→B⊆Z)
+</stmnt>
+Y∈F
+</stmnt>
+∀B(B∈F→B⊆Y)
+</stmnt>
+Z∈F
+</stmnt>
+∀B(B∈F→B⊆Z)
+</stmnt>
+Z∈F→Z⊆Y
+</stmnt>
+Z⊆Y
+∀a(a∈Z→a∈Y)
+</stmnt>
+Y∈F→Y⊆Z
+</stmnt>
+Y⊆Z
+∀a(a∈Y→a∈Z)
+</stmnt>
+Y=Z
+∀a(a∈Y↔a∈Z)
+</stmnt>
+x∈Y↔x∈Z
+</stmnt>
+x∈Y→x∈Z
+</stmnt>
+x∈Y
+</stmnt>
+x∈Y→x∈Z
+</stmnt>
+x∈Z
+</stmnt>
+x∈Z→x∈Y
+</stmnt>
+x∈Z
+</stmnt>
+x∈Z→x∈Y
+</stmnt>
+x∈Y
+</stmnt>
+</stmntList>
+<b>Theorem.</b> Suppose <span class="formula"><span>∀</span><i>G</i><span>(</span><i>G</i><span>⊆<wbr></span><i>F</i><span>→<wbr></span><span>∪</span><i>G</i><span>∈<wbr></span><i>F</i><span>)</span></span>. Then <span class="formula"><span>∃</span><span>!</span><i>A</i><span>(</span><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>A</i><span>)</span><span>)</span></span>.<br><b>Proof:</b>
+31
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><span>∃</span><span>!</span><i>A</i><span>(</span><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>A</i><span>)</span><span>)</span></span>.
+-
+-
+
+0
+Existence
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∃</span><i>A</i><span>(</span><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>A</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+2
+2
+Lemma. <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i></span>.
+-
+-
+
+1
+Proof:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i></span>
+1
+0
+0
+-
+-
+2
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i></span>.
+23
+-
+
+1
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>F</i></span>
+1
+0
+0
+-
+-
+3
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>F</i></span>.
+-
+4
+
+1
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>F</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>F</i></span>
+1
+0
+0
+-
+4
+4
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>F</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+0
+5
+0
+Since <span class="formula"><span>∀</span><i>G</i><span>(</span><i>G</i><span>⊆<wbr></span><i>F</i><span>→<wbr></span><span>∪</span><i>G</i><span>∈<wbr></span><i>F</i><span>)</span></span>, <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i><span>→<wbr></span><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i></span>.
+</inf>
+0
+-
+2,5
+6
+0
+Since <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i></span> and <span class="formula"><i>F</i><span>⊆<wbr></span><i>F</i><span>→<wbr></span><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i></span>, <span class="formula"><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i></span>.
+</inf>
+0
+-
+-
+7
+1
+Since <span class="formula"><i>B</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i><span>)</span></span>.
+27
+-
+
+0
+Let <span class="formula"><i>B</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i></span>
+1
+0
+0
+-
+-
+8
+1
+Therefore <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i></span>.
+-
+9
+
+0
+Suppose <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i></span>
+1
+0
+0
+-
+-
+10
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>
+1
+0
+0
+-
+-
+11
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>.
+-
+12
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>
+1
+0
+0
+-
+9,12
+13
+0
+Since <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+13
+14
+0
+Since <span class="formula"><i>B</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><i>F</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+6,7
+15
+0
+Since <span class="formula"><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i><span>)</span></span>, <span class="formula"><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i><span>)</span></span>.
+</inf>
+0
+-
+15
+16
+0
+Since <span class="formula"><span>∪</span><i>F</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><span>∪</span><i>F</i><span>)</span></span>, <span class="formula"><span>∃</span><i>A</i><span>(</span><i>A</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>A</i><span>)</span><span>)</span></span>.
+</inf>
+</proof>
+-
+-
+
+0
+Uniqueness
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>a</i><span>∀</span><i>b</i><span>(</span><span>(</span><i>a</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>a</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>b</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>b</i><span>)</span><span>)</span><span>→<wbr></span><i>a</i><span>=<wbr></span><i>b</i><span>)</span></span>
+1
+0
+0
+-
+-
+17
+1
+Since <span class="formula"><i>Y</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>a</i><span>∀</span><i>b</i><span>(</span><span>(</span><i>a</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>a</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>b</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>b</i><span>)</span><span>)</span><span>→<wbr></span><i>a</i><span>=<wbr></span><i>b</i><span>)</span></span>.
+50
+-
+
+0
+Let <span class="formula"><i>Y</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>∀</span><i>b</i><span>(</span><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>b</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>b</i><span>)</span><span>)</span><span>→<wbr></span><i>Y</i><span>=<wbr></span><i>b</i><span>)</span></span>
+1
+0
+0
+-
+-
+18
+1
+Since <span class="formula"><i>Z</i></span> was arbitrary, we can conclude that <span class="formula"><span>∀</span><i>b</i><span>(</span><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>b</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>b</i><span>)</span><span>)</span><span>→<wbr></span><i>Y</i><span>=<wbr></span><i>b</i><span>)</span></span>.
+51
+-
+
+0
+Let <span class="formula"><i>Z</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span><span>)</span><span>→<wbr></span><i>Y</i><span>=<wbr></span><i>Z</i></span>
+1
+0
+0
+-
+-
+19
+1
+Therefore <span class="formula"><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span><span>)</span><span>→<wbr></span><i>Y</i><span>=<wbr></span><i>Z</i></span>.
+-
+20
+
+0
+Suppose <span class="formula"><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>Y</i><span>=<wbr></span><i>Z</i></span>
+1
+0
+0
+-
+20
+21,22
+0
+Since <span class="formula"><span>(</span><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span><span>)</span><span>∧<wbr></span><span>(</span><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span><span>)</span></span>, <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span></span> and <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span></span>.
+</inf>
+0
+-
+21
+23,24
+0
+Since <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span></span>, <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span></span>.
+</inf>
+0
+-
+22
+25,26
+0
+Since <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span></span>, <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span></span>.
+</inf>
+0
+-
+24
+27
+0
+Since <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Y</i><span>)</span></span>, <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>Z</i><span>⊆<wbr></span><i>Y</i></span>.
+</inf>
+0
+-
+25,27
+28
+0
+Since <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>Z</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>Z</i><span>⊆<wbr></span><i>Y</i></span>, <span class="formula"><i>Z</i><span>⊆<wbr></span><i>Y</i></span>.
+</inf>
+0
+-
+26
+29
+0
+Since <span class="formula"><span>∀</span><i>B</i><span>(</span><i>B</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>B</i><span>⊆<wbr></span><i>Z</i><span>)</span></span>, <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>Y</i><span>⊆<wbr></span><i>Z</i></span>.
+</inf>
+0
+-
+23,29
+30
+0
+Since <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i></span> and <span class="formula"><i>Y</i><span>∈<wbr></span><i>F</i><span>→<wbr></span><i>Y</i><span>⊆<wbr></span><i>Z</i></span>, <span class="formula"><i>Y</i><span>⊆<wbr></span><i>Z</i></span>.
+</inf>
+0
+-
+-
+31
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>Y</i><span>=<wbr></span><i>Z</i></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>
+1
+0
+0
+-
+-
+32
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>↔<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>
+1
+0
+0
+-
+-
+33
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>.
+-
+34
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i></span>
+1
+0
+0
+-
+30
+35
+0
+Since <span class="formula"><i>Y</i><span>⊆<wbr></span><i>Z</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>.
+</inf>
+0
+-
+34,35
+36
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Z</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Y</i></span>
+1
+0
+0
+-
+-
+37
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Y</i></span>.
+-
+38
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i></span>
+1
+0
+0
+-
+28
+39
+0
+Since <span class="formula"><i>Z</i><span>⊆<wbr></span><i>Y</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Y</i></span>.
+</inf>
+0
+-
+38,39
+40
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>Z</i><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>Y</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>Y</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
